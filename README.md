@@ -1,4 +1,8 @@
-# DLT
+# Digital Lending Tokens
+
+```
+npm install
+```
 
 ```shell
 npx hardhat help
