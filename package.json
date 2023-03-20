@@ -1,3 +1,12 @@
 {
-  "name": "hardhat-project"
+  "name": "digital-lending-token",
+  "description": "Smart contracts of DLT",
+  "license": "ISC",
+  "author": "Naranbat",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "hardhat": "^2.12.5",
+    "dotenv": "^16.0.3"
+  }
 }
