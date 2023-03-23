@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
 
-contract DLT90 is ERC20, AccessControl, ERC20Burnable {
+contract DLT90 is AccessControl, ERC20Burnable {
     
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     uint256 private immutable _maxSupply = 1_000_000_000;
